@@ -4,10 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-body{
- 
-}
 .section{
     width: 80%;
     margin: auto;
@@ -132,6 +128,14 @@ body{
     text-align: center;
     
 }
+.srch-pl{
+    color:  #005f8b;
+    font-weight: bold;
+}
+.nv{
+    color: #005f8b;
+    font-weight: bold;
+}
 
 @media only screen and (max-width :640px) {
     .search-container{
@@ -140,7 +144,28 @@ body{
         align-items: center;
         justify-content: center;
     }
-    .player-info{
+
+    .player-card{
+        width: 250px;
+        padding: 5px;
+        background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    
+        box-shadow: 2px 2px 5px gray;
+        border-radius: 10px;
+    }
+    /* .player-info{
         visibility: hidden;
+    } */
+    .player-squad {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 45%;
+        background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        padding: 10px;
+        border-radius: 10px;
+        height:min-content;
+        min-height: 300px;
+        box-shadow: 5px 2px 5px gray;
     }
 }

@@ -19,7 +19,8 @@ const showAllPlayer = (players) =>{
             <h2> ${player.strPlayer}</h2>
             <p><strong>Country</strong> : ${player.strNationality}</p>
             <p><strong>Team</strong>: ${player.strTeam}</p>
-            <p><strong>Desctioption</strong>: ${player.strDescriptionEN.split(' ').slice(0, 15).join(' ')}</p>
+            <p><strong>Sport</strong>: ${player.strSport}</p>
+            <p><strong>Desctioption</strong>: ${player.strDescriptionEN.split(' ').slice(0, 10).join(' ')}</p>
             
             <div class="social-icons">
                 <a target="_blank" href="${player.strFacebook}"><i class="fab fa-facebook-f fa-xl"></i></a>
